@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-left,
+.nav-right {
+  margin: 0 10vw;
+}
+
+.nav-left img {
+  width: 200px;
+}
+
+.nav-right {
+  width: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-right .user-img {
+  width: 35px;
+}
+
+.nav-right button {
+  border-radius: 25px;
+  border-style: none;
+  border: 1px solid grey;
+  background-color: white;
+  padding: 8px;
+}
+
+.icons ion-icon {
+  padding: 0 5px;
+}
+
+/* main */
+
+main {
+  display: flex;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.main-left {
+  width: 65%;
+  border: 1px solid red;
+  margin-left: 10vw;
+}
+
+.main-right {
+  width: 35%;
+  border: 1px solid red;
+  margin-right: 10vw;
+}
+
+/* article */
+
+.article {
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+}
+
+.article img {
+  width: 30%;
+  object-fit: cover;
+}
+
+.article-author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.article-author img {
+  width: 30px;
+}
+
+.article-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-left {
+  display: flex;
+}
+
+.info-left p {
+  margin-left: 8px;
+}
+
+.info-left,
+.info-right,
+.article-text h2,
+.article-text p {
+  margin: 10px 0;
+}
