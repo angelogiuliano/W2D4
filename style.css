@@ -244,6 +244,11 @@ hr {
   align-items: center;
   justify-content: start;
   gap: 10px;
+  padding: 8px 0;
+}
+
+.content-headline .user-img {
+  width: 20px;
 }
 
 .recently-saved a {
