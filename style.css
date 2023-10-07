@@ -12,7 +12,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .nav-left {
@@ -81,6 +81,7 @@ main {
 }
 
 .following-recommended {
+  pointer-events: none;
   margin: 3vh 1vw;
   display: flex;
   flex-wrap: wrap;
@@ -89,32 +90,22 @@ main {
   position: relative;
   font-weight: bold;
   color: grey;
+  border-bottom: 1px solid grey;
 }
 
 .following-recommended p {
   margin-right: 20px;
 }
 
-.following {
-  margin-left: 5px;
-}
-
-.following:hover, .recommended:hover {  
-  font-weight: bold;
+.p2 {
   color: black;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
 }
 
-.following:hover hr, .recommended:hover hr {
-  border: 1px solid black;
-}
-
-.abs {
-  position: absolute;
-  bottom: 0;
-}
-
-.main-left hr {
-  width: 95%;
+.p1 {
+  color: grey;
+  padding-bottom: 20px;
 }
 
 /* article */
